@@ -5,14 +5,13 @@ const Tab = () => {
   const [activeTab, setActiveTab] = useState("allOrders");
   const [orders, setOrders] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const pageLimit = 3;
 
   //fetch the data
   useEffect(() => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://mocki.io/v1/c382fa3e-a4e2-4cf7-ad7d-233236633384"
+          "https://mocki.io/v1/a335d33a-a074-4848-ae38-d69b78686ecd"
         );
         const data = await response.json();
         setOrders(data);
@@ -34,6 +33,7 @@ const Tab = () => {
   });
 
   // pagination calculation
+  const pageLimit = 4;
   const totalPages = Math.ceil(filteredOrders.length / pageLimit);
 
   const startPage = (currentPage - 1) * pageLimit;
@@ -60,7 +60,7 @@ const Tab = () => {
   return (
     <div>
       <h1>Anti Blue Ray Glass Orders</h1>
-      <div className="tabs">
+      <div className="orderDetails">
         <button
           className={activeTab === "allOrders" ? "active" : ""}
           onClick={() => setActiveTab("allOrders")}

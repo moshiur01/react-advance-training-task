@@ -34,5 +34,29 @@
     "name": "Mir Hossian",
     "deliveryType": "Regular",
     "status": "Delivered"
+  },
+  {
+    "id": 7,
+    "name": "AU Shamim",
+    "deliveryType": "Regular",
+    "status": "Pending"
+  },
+  {
+    "id": 8,
+    "name": "Rabkib Alam",
+    "deliveryType": "Express",
+    "status": "Delivered"
+  },
+  {
+    "id": 9,
+    "name": "Kalam Uddin",
+    "deliveryType": "Regular",
+    "status": "Pending"
+  },
+  {
+    "id": 10,
+    "name": "Md Ainul",
+    "deliveryType": "Express",
+    "status": "Delivered"
   }
 ]

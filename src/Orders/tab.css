@@ -1,17 +1,17 @@
-.tabs {
+.orderDetails {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
 }
 
-.tabs button {
+.orderDetails button {
   cursor: pointer;
   padding: 0.5rem 1rem;
   font-size: 1.3rem;
   margin-left: 2rem;
 }
 
-.tabs button.active {
+.orderDetails button.active {
   background-color: rgb(2, 102, 52);
 }
 
