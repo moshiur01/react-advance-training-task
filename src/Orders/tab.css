@@ -1,0 +1,51 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.tabs button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+
+.tabs button.active {
+  background-color: rgb(2, 102, 52);
+}
+
+.tableDiv {
+  margin-left: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  color: black;
+  padding: 0.5rem;
+  border: 1px solid lightgray;
+}
+
+.delivered {
+  background-color: rgba(30, 253, 22, 0.705);
+  font-weight: 700;
+}
+.pending {
+  background-color: rgb(242, 245, 102);
+}
+
+.pagination-button {
+  margin-left: 1rem;
+}
+
+.pagination-button.active {
+  background-color: rgb(2, 102, 52);
+  color: white;
+  font-weight: bold;
+}

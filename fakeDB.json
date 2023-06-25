@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Jhanker Mahbub",
+    "deliveryType": "Regular",
+    "status": "Pending"
+  },
+  {
+    "id": 2,
+    "name": "Fahim Bhai",
+    "deliveryType": "Express",
+    "status": "Delivered"
+  },
+  {
+    "id": 3,
+    "name": "Mezba Bhai",
+    "deliveryType": "Express",
+    "status": "Pending"
+  },
+  {
+    "id": 4,
+    "name": "Sumit Saha",
+    "deliveryType": "Regular",
+    "status": "Delivered"
+  },
+  {
+    "id": 5,
+    "name": "Moshiur Rahman",
+    "deliveryType": "Express",
+    "status": "Pending"
+  },
+  {
+    "id": 6,
+    "name": "Mir Hossian",
+    "deliveryType": "Regular",
+    "status": "Delivered"
+  }
+]
