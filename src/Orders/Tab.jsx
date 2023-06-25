@@ -11,7 +11,9 @@ const Tab = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("./fakeDB.json");
+        const response = await fetch(
+          "https://mocki.io/v1/c382fa3e-a4e2-4cf7-ad7d-233236633384"
+        );
         const data = await response.json();
         setOrders(data);
       } catch (error) {
